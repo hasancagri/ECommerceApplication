@@ -1,0 +1,17 @@
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\bin\Debug\net8.0\Application.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\bin\Debug\net8.0\Shared.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\bin\Debug\net8.0\Shared.pdb
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\obj\Debug\net8.0\Application.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Application\obj\Debug\net8.0\ref\Application.dll

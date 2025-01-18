@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\core\\domain\\outbox\\changequantitydomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\outbox\\changequantitydomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\core\\domain\\using.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\using.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\core\\domain\\outbox\\clearbasketdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\outbox\\clearbasketdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\core\\domain\\domainservices\\customerorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\domainservices\\customerorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\core\\domain\\outbox\\addtobasketdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\outbox\\addtobasketdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\core\\domain\\domainservices\\icustomerorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\domainservices\\icustomerorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06DFE22-DF38-4DBB-B0A7-7661DE44A4A6}|Application\\Application.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\application\\customerorders\\commands\\addtobasket\\addtobasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06DFE22-DF38-4DBB-B0A7-7661DE44A4A6}|Application\\Application.csproj|solutionrelative:application\\customerorders\\commands\\addtobasket\\addtobasketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F06DFE22-DF38-4DBB-B0A7-7661DE44A4A6}|Application\\Application.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\application\\customerorders\\commands\\changequantity\\changequantitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06DFE22-DF38-4DBB-B0A7-7661DE44A4A6}|Application\\Application.csproj|solutionrelative:application\\customerorders\\commands\\changequantity\\changequantitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1E01C4-7BFA-4513-B85F-F8AFB26FBBB9}|Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\infrastructure\\infrastructure\\entityframework\\interceptors\\insertoutboxmessagesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1E01C4-7BFA-4513-B85F-F8AFB26FBBB9}|Infrastructure\\Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure\\entityframework\\interceptors\\insertoutboxmessagesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1E01C4-7BFA-4513-B85F-F8AFB26FBBB9}|Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\infrastructure\\infrastructure\\entityframework\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1E01C4-7BFA-4513-B85F-F8AFB26FBBB9}|Infrastructure\\Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure\\entityframework\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddToBasketDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\Outbox\\AddToBasketDomainEvent.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Outbox\\AddToBasketDomainEvent.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\Outbox\\AddToBasketDomainEvent.cs",
+              "RelativeToolTip": "Core\\Domain\\Outbox\\AddToBasketDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:10:30.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Using.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\Using.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Using.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\Using.cs",
+              "RelativeToolTip": "Core\\Domain\\Using.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:12:16.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChangeQuantityDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\Outbox\\ChangeQuantityDomainEvent.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Outbox\\ChangeQuantityDomainEvent.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\Outbox\\ChangeQuantityDomainEvent.cs*",
+              "RelativeToolTip": "Core\\Domain\\Outbox\\ChangeQuantityDomainEvent.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:11:43.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClearBasketDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\Outbox\\ClearBasketDomainEvent.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Outbox\\ClearBasketDomainEvent.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\Outbox\\ClearBasketDomainEvent.cs",
+              "RelativeToolTip": "Core\\Domain\\Outbox\\ClearBasketDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:10:39.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChangeQuantityCommand.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Application\\CustomerOrders\\Commands\\ChangeQuantity\\ChangeQuantityCommand.cs",
+              "RelativeDocumentMoniker": "Application\\CustomerOrders\\Commands\\ChangeQuantity\\ChangeQuantityCommand.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Application\\CustomerOrders\\Commands\\ChangeQuantity\\ChangeQuantityCommand.cs",
+              "RelativeToolTip": "Application\\CustomerOrders\\Commands\\ChangeQuantity\\ChangeQuantityCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:08:47.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICustomerOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\DomainServices\\ICustomerOrderService.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\DomainServices\\ICustomerOrderService.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\DomainServices\\ICustomerOrderService.cs",
+              "RelativeToolTip": "Core\\Domain\\DomainServices\\ICustomerOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:07:57.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\DomainServices\\CustomerOrderService.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\DomainServices\\CustomerOrderService.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\DomainServices\\CustomerOrderService.cs",
+              "RelativeToolTip": "Core\\Domain\\DomainServices\\CustomerOrderService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwE4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:06:26.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddToBasketCommand.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Application\\CustomerOrders\\Commands\\AddToBasket\\AddToBasketCommand.cs",
+              "RelativeDocumentMoniker": "Application\\CustomerOrders\\Commands\\AddToBasket\\AddToBasketCommand.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Application\\CustomerOrders\\Commands\\AddToBasket\\AddToBasketCommand.cs",
+              "RelativeToolTip": "Application\\CustomerOrders\\Commands\\AddToBasket\\AddToBasketCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:05:43.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Infrastructure\\Infrastructure\\EntityFramework\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure\\EntityFramework\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Infrastructure\\Infrastructure\\EntityFramework\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Infrastructure\\EntityFramework\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:05:02.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InsertOutboxMessagesInterceptor.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Infrastructure\\Infrastructure\\EntityFramework\\Interceptors\\InsertOutboxMessagesInterceptor.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure\\EntityFramework\\Interceptors\\InsertOutboxMessagesInterceptor.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Infrastructure\\Infrastructure\\EntityFramework\\Interceptors\\InsertOutboxMessagesInterceptor.cs",
+              "RelativeToolTip": "Infrastructure\\Infrastructure\\EntityFramework\\Interceptors\\InsertOutboxMessagesInterceptor.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:04:54.378Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
