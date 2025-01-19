@@ -9,6 +9,9 @@ public class SendMailConsumer
 {
     public async Task Consume(ConsumeContext<SendMailIntegrationEvent> context)
     {
-        await File.AppendAllTextAsync("mail.txt", $"Email: {context.Message.Email}, ProductName: {context.Message.ProductName}, CustomerName: {context.Message.CustomerName}" + "\n");
+        var email = context.Message.Email;
+        var productName = context.Message.ProductName;
+        var customerName = context.Message.CustomerName;
+        await File.AppendAllTextAsync("mail.txt", $"Email: {email}, ProductName: {productName}, CustomerName: {customerName}" + "\n");
     }
 }

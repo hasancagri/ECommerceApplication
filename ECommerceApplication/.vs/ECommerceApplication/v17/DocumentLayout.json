@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DC0B3785-C350-4101-9EBA-B9E69C363AF4}|docker-compose.dcproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DC0B3785-C350-4101-9EBA-B9E69C363AF4}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0B3785-C350-4101-9EBA-B9E69C363AF4}|docker-compose.dcproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DC0B3785-C350-4101-9EBA-B9E69C363AF4}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0B3785-C350-4101-9EBA-B9E69C363AF4}|docker-compose.dcproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC0B3785-C350-4101-9EBA-B9E69C363AF4}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\core\\domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC0D803-F9B5-48DA-BEBE-60FF86CC5E70}|Presentation\\IntegrationAPI\\IntegrationAPI.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\presentation\\integrationapi\\consumers\\sendmailconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC0D803-F9B5-48DA-BEBE-60FF86CC5E70}|Presentation\\IntegrationAPI\\IntegrationAPI.csproj|solutionrelative:presentation\\integrationapi\\consumers\\sendmailconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDD844A0-E689-4FE5-AB4A-32CBA0CD4D5A}|Presentation\\CustomerOrderAPI\\CustomerOrderAPI.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\presentation\\customerorderapi\\services\\jobs\\inboxcreatedbackgroundjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDD844A0-E689-4FE5-AB4A-32CBA0CD4D5A}|Presentation\\CustomerOrderAPI\\CustomerOrderAPI.csproj|solutionrelative:presentation\\customerorderapi\\services\\jobs\\inboxcreatedbackgroundjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{EDD844A0-E689-4FE5-AB4A-32CBA0CD4D5A}|Presentation\\CustomerOrderAPI\\CustomerOrderAPI.csproj|solutionrelative:presentation\\customerorderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\core\\domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{913BAB79-1F94-4BF1-98EF-23BCD15FBBA8}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB1E01C4-7BFA-4513-B85F-F8AFB26FBBB9}|Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\hasan\\onedrive\\belgeler\\github\\ecommerceapplication\\ecommerceapplication\\infrastructure\\infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1E01C4-7BFA-4513-B85F-F8AFB26FBBB9}|Infrastructure\\Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +98,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T19:17:58.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T19:15:30.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-19T19:15:27.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SendMailConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Presentation\\IntegrationAPI\\Consumers\\SendMailConsumer.cs",
+              "RelativeDocumentMoniker": "Presentation\\IntegrationAPI\\Consumers\\SendMailConsumer.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Presentation\\IntegrationAPI\\Consumers\\SendMailConsumer.cs",
+              "RelativeToolTip": "Presentation\\IntegrationAPI\\Consumers\\SendMailConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:13:47.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Presentation\\CustomerOrderAPI\\Program.cs",
               "RelativeDocumentMoniker": "Presentation\\CustomerOrderAPI\\Program.cs",
@@ -95,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ProductNameChangeConsumer.cs",
               "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Presentation\\CustomerOrderAPI\\Consumers\\ProductNameChangeConsumer.cs",
               "RelativeDocumentMoniker": "Presentation\\CustomerOrderAPI\\Consumers\\ProductNameChangeConsumer.cs",
@@ -108,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "PublishDomainEventInterceptor.cs",
               "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Infrastructure\\Infrastructure\\EntityFramework\\Interceptors\\PublishDomainEventInterceptor.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure\\EntityFramework\\Interceptors\\PublishDomainEventInterceptor.cs",
@@ -121,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "InsertOutboxMessagesInterceptor.cs",
               "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Infrastructure\\Infrastructure\\EntityFramework\\Interceptors\\InsertOutboxMessagesInterceptor.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure\\EntityFramework\\Interceptors\\InsertOutboxMessagesInterceptor.cs",
@@ -134,20 +202,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\Products\\Product.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Products\\Product.cs",
               "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Core\\Domain\\Products\\Product.cs",
               "RelativeToolTip": "Core\\Domain\\Products\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCAAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T18:46:39.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "OutboxCreatedBackgroundJob.cs",
               "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Infrastructure\\Infrastructure\\Services\\Jobs\\OutboxCreatedBackgroundJob.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure\\Services\\Jobs\\OutboxCreatedBackgroundJob.cs",
@@ -160,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Infrastructure\\Infrastructure\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure\\ServiceRegistration.cs",
@@ -173,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "ChangeNameCommand.cs",
               "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Application\\Products\\Commands\\ChangeName\\ChangeNameCommand.cs",
               "RelativeDocumentMoniker": "Application\\Products\\Commands\\ChangeName\\ChangeNameCommand.cs",
@@ -186,13 +254,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "InboxCreatedBackgroundJob.cs",
               "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Presentation\\CustomerOrderAPI\\Services\\Jobs\\InboxCreatedBackgroundJob.cs",
               "RelativeDocumentMoniker": "Presentation\\CustomerOrderAPI\\Services\\Jobs\\InboxCreatedBackgroundJob.cs",
               "ToolTip": "C:\\Users\\hasan\\OneDrive\\Belgeler\\GitHub\\ECommerceApplication\\ECommerceApplication\\Presentation\\CustomerOrderAPI\\Services\\Jobs\\InboxCreatedBackgroundJob.cs",
               "RelativeToolTip": "Presentation\\CustomerOrderAPI\\Services\\Jobs\\InboxCreatedBackgroundJob.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T18:46:26.336Z",
               "EditorCaption": ""
