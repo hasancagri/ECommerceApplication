@@ -1,0 +1,66 @@
+name: dockercompose105936023567526152
+services:
+  catalogserver:
+    container_name: catalogserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: Password12*
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: user-sql-server
+        target: /var/opt/mssql
+        volume: {}
+  orderserver:
+    container_name: orderserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: Password12*
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1444"
+        protocol: tcp
+    restart: always
+  rabbitmq:
+    image: rabbitmq:3-management
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5672
+        published: "5672"
+        protocol: tcp
+      - mode: ingress
+        target: 15672
+        published: "15672"
+        protocol: tcp
+    restart: always
+  usercatalogcache:
+    container_name: catalogcache
+    image: redis:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 6379
+        published: "6379"
+        protocol: tcp
+    restart: always
+networks:
+  default:
+    name: dockercompose105936023567526152_default
+volumes:
+  user-sql-server:
+    name: dockercompose105936023567526152_user-sql-server

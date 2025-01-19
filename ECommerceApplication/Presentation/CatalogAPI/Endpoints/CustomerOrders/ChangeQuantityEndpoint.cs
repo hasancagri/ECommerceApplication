@@ -16,7 +16,7 @@ public class ChangeQuantityEndpoint
 {
     public void AddRoutes(IEndpointRouteBuilder app)
     {
-        app.MapPost("/changeQuantity", async (ISender sender, ChangeQuantityRequest request, CancellationToken cancellationToken) =>
+        app.MapPost("/change-quantity", async (ISender sender, ChangeQuantityRequest request, CancellationToken cancellationToken) =>
         {
             var command = request.Adapt<ChangeQuantityCommand>();
             await sender.Send(command, cancellationToken);

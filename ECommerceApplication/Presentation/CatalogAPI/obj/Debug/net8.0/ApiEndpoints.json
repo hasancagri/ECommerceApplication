@@ -2,7 +2,7 @@
   {
     "ContainingType": "CatalogAPI.Endpoints.CustomerOrders.AddToBasketEndpoint\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__0_0",
-    "RelativePath": "addToBasket",
+    "RelativePath": "add-to-basket",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
@@ -22,9 +22,31 @@
     ]
   },
   {
+    "ContainingType": "CatalogAPI.Endpoints.Products.ChangeNameEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "change-name",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CatalogAPI.Endpoints.Products.ChangeNameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "CatalogAPI.Endpoints.CustomerOrders.ChangeQuantityEndpoint\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__0_0",
-    "RelativePath": "changeQuantity",
+    "RelativePath": "change-quantity",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
@@ -46,7 +68,7 @@
   {
     "ContainingType": "CatalogAPI.Endpoints.CustomerOrders.ClearBasketEndpoint\u002B\u003C\u003Ec",
     "Method": "\u003CAddRoutes\u003Eb__0_0",
-    "RelativePath": "clearBasket",
+    "RelativePath": "clear-basket",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
@@ -54,6 +76,72 @@
       {
         "Name": "request",
         "Type": "CatalogAPI.Endpoints.CustomerOrders.ClearBasketRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CatalogAPI.Endpoints.Customers.CreateCustomerEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "create-customer",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CatalogAPI.Endpoints.Customers.CreateCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CatalogAPI.Endpoints.Products.CreateProductEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "create-product",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CatalogAPI.Endpoints.Products.CreateProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CatalogAPI.Endpoints.Products.DeleteProductEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__0_0",
+    "RelativePath": "delete-product",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CatalogAPI.Endpoints.Products.DeleteProductRequest",
         "IsRequired": true
       }
     ],

@@ -17,9 +17,9 @@ public static class ServiceRegistration
         var assembly = Assembly.GetExecutingAssembly();
         services.AddMediatR(config =>
         {
+            config.RegisterServicesFromAssembly(assembly);
             config.AddOpenBehavior(typeof(LoggingBehavior<,>));
             config.AddOpenBehavior(typeof(ValidationBehavior<,>));
-            config.RegisterServicesFromAssembly(assembly);
         });
 
         services.AddScoped<ICustomerOrderService, CustomerOrderService>();

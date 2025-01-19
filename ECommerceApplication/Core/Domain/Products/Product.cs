@@ -26,4 +26,10 @@ public class Product
         product.Raise(new ProductCreatedDomainEvent(id, barcode, description, quantity, price));
         return product;
     }
+
+    public void ChangeName(string name)
+    {
+        Name = name;
+        Raise(new ProductNameChangedDomainEvent(Id, name));
+    }
 }

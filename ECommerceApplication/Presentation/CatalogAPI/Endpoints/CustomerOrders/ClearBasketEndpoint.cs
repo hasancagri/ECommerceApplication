@@ -15,7 +15,7 @@ public class ClearBasketEndpoint
 {
     public void AddRoutes(IEndpointRouteBuilder app)
     {
-        app.MapPost("/clearBasket", async (ISender sender, ClearBasketRequest request, CancellationToken cancellationToken) =>
+        app.MapPost("/clear-basket", async (ISender sender, ClearBasketRequest request, CancellationToken cancellationToken) =>
         {
             var command = request.Adapt<ClearBasketCommand>();
             await sender.Send(command, cancellationToken);

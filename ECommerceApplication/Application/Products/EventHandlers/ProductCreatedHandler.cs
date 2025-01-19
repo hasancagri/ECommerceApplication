@@ -11,7 +11,5 @@ internal sealed class ProductCreatedHandler(ICacheService cacheService)
     : INotificationHandler<ProductCreatedDomainEvent>
 {
     public async Task Handle(ProductCreatedDomainEvent notification, CancellationToken cancellationToken)
-    {
-        await cacheService.ClearAsync(CacheNames.GetProducts);
-    }
+        => await cacheService.ClearAsync(CacheNames.GetProducts);
 }

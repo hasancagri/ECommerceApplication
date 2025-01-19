@@ -3,6 +3,7 @@ using Application.Services;
 
 using Domain.ProductModels;
 
+using Infrastructure.Consumers;
 using Infrastructure.EntityFramework.Contexts;
 using Infrastructure.EntityFramework.Interceptors;
 using Infrastructure.EntityFramework.Repositories.Customers;
@@ -20,6 +21,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 using Quartz;
+
+using Shared.IntegrationEvents;
 
 using StackExchange.Redis;
 
@@ -52,10 +55,10 @@ public static class ServiceRegistration
 
         services.AddQuartz(configurator =>
         {
-            JobKey jobKey = new("JobKey");
+            JobKey jobKey = new("CatalogJobKey");
             configurator.AddJob<OutboxCreatedBackgroundJob>(options => options.WithIdentity(jobKey));
 
-            TriggerKey triggerKey = new("JobTrigger");
+            TriggerKey triggerKey = new("CatalogJobTrigger");
             configurator.AddTrigger(options => options.ForJob(jobKey)
             .WithIdentity(triggerKey)
             .StartAt(DateTime.UtcNow)
@@ -68,12 +71,18 @@ public static class ServiceRegistration
 
         services.AddMassTransit(configurator =>
         {
+            configurator.AddConsumer<SuccesfulOrderConsumer>();
             configurator.UsingRabbitMq((context, _configurator) =>
             {
                 _configurator.Host(configuration["RabbitMq:Url"], h =>
                 {
                     h.Username(configuration["RabbitMq:Username"]!);
                     h.Password(configuration["RabbitMq:Password"]!);
+                });
+
+                _configurator.ReceiveEndpoint(RabbmitMqConstantValues.SuccessfulOrderQueue, e =>
+                {
+                    e.ConfigureConsumer<SuccesfulOrderConsumer>(context);
                 });
             });
         });

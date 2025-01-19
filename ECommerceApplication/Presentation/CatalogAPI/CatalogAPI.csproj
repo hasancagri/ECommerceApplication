@@ -27,10 +27,4 @@
     <ProjectReference Include="..\..\Infrastructure\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Consumers\" />
-    <Folder Include="Endpoints\Customers\" />
-    <Folder Include="Endpoints\Products\" />
-  </ItemGroup>
-
 </Project>

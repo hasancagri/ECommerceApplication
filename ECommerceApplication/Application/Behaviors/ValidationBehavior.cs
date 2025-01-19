@@ -15,28 +15,25 @@ public class ValidationBehavior<TRequest, TResponse>
 
     public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
     {
-        if (!_validators.Any())
-        {
-            return await next();
-        }
-        var context = new ValidationContext<TRequest>(request);
-        var errorsDictionary = _validators
-            .Select(x => x.Validate(context))
-            .SelectMany(x => x.Errors)
-            .Where(x => x != null)
-            .GroupBy(
-                x => x.PropertyName,
-                x => x.ErrorMessage,
-                (propertyName, errorMessages) => new
-                {
-                    Key = propertyName,
-                    Values = errorMessages.Distinct().ToArray()
-                })
-            .ToDictionary(x => x.Key, x => x.Values);
+        ArgumentNullException.ThrowIfNull(next);
 
-        if (errorsDictionary.Any())
-            throw new Exception("Hata meydana geldi");
-        //throw new ValidationException(errorsDictionary);
+        if (_validators.Any())
+        {
+            var context = new ValidationContext<TRequest>(request);
+
+            var validationResults = await Task.WhenAll(
+                _validators.Select(v =>
+                    v.ValidateAsync(context, cancellationToken)))
+                    .ConfigureAwait(false);
+
+            var failures = validationResults
+                .Where(r => r.Errors.Count > 0)
+                .SelectMany(r => r.Errors)
+                .ToList();
+
+            if (failures.Count > 0)
+                throw new ValidationException(failures);
+        }
         return await next();
     }
 }

@@ -1,4 +1,4 @@
 ﻿namespace Domain.Products;
 
-public record ProductCreatedDomainEvent(Guid id, int barcode, string description, int quantity, decimal price)
+public record ProductCreatedDomainEvent(Guid Id, int Barcode, string Description, int Quantity, decimal Price)
     : IDomainEvent;

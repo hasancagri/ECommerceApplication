@@ -35,3 +35,14 @@ C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplicatio
 C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\obj\Debug\net8.0\IntegrationAPI.pdb
 C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\obj\Debug\net8.0\IntegrationAPI.genruntimeconfig.cache
 C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\obj\Debug\net8.0\ref\IntegrationAPI.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\Mapster.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\MassTransit.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\MediatR.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\Shared.dll
+C:\Users\hasan\OneDrive\Belgeler\GitHub\ECommerceApplication\ECommerceApplication\Presentation\IntegrationAPI\bin\Debug\net8.0\Shared.pdb

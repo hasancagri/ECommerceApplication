@@ -12,4 +12,7 @@ internal sealed class ProductRepository(ApplicationContext context)
 
     public async Task AddAsync(Product product, CancellationToken cancellationToken = default)
         => await context.Products.AddAsync(product, cancellationToken);
+
+    public void Update(Product product)
+        => context.Products.Update(product);
 }
