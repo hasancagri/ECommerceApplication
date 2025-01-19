@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  catalogserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: catalogserver
+    restart: always 
+    environment:
+     ACCEPT_EULA: 'Y'
+     MSSQL_SA_PASSWORD: 'Password12*'
+    volumes:
+     - user-sql-server:/var/opt/mssql
+    ports:
+     - '1433:1433'
+    
+  usercatalogcache:
+    image: redis:latest
+    container_name: catalogcache  
+    restart: always
+    ports:
+     - '6379:6379'
+   
+  rabbitmq:
+    image: rabbitmq:3-management
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+   
+volumes:
+    user-sql-server:

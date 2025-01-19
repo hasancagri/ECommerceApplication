@@ -29,7 +29,7 @@ public sealed class CustomerOrderService(IProductRepository productRepository,
         if (customer is null)
             throw new Exception($"Customer not found by Id={customerId}");
 
-        AddToBasketDomainEvent domainEvent = new(customerId, productId);
+        AddToBasketDomainEvent domainEvent = new(customerId, productId, product.Name);
         OutboxMessage outboxMessage = new()
         {
             Id = Guid.NewGuid(),

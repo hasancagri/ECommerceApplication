@@ -6,7 +6,7 @@ using MediatR;
 
 namespace Application.CustomerOrders.Commands.AddToBasket;
 
-internal record AddToBasketCommand(Guid CustomerId, Guid ProductId)
+public record AddToBasketCommand(Guid CustomerId, Guid ProductId)
     : IRequest;
 
 internal sealed class AddToBasketHandler(IUnitOfWork unitOfWork, ICustomerOrderService customerOrderService)
